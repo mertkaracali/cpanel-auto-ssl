@@ -10,4 +10,4 @@ Bu betik, CPanel/WHM kullanan sunucularda SSL sertifikalarının otomatik olarak
 Bu Bash betiği, sunucunuzun acme.sh aracını kullanarak tüm alan adlarına ve hostname üzerine otomatik SSL sertifikası almasını, yenilemesini ve WHM (Web Host Manager) ile CPanel'de hizmetlere SSL yüklemesini sağlar.
 
 Kurulum
-bash <(https://raw.githubusercontent.com/mertkaracali/cpanel-auto-ssl/refs/heads/main/install.sh)
+bash <(curl https://raw.githubusercontent.com/mertkaracali/cpanel-auto-ssl/refs/heads/main/install.sh)
