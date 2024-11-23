@@ -55,5 +55,5 @@ do
   
   echo "$domain için SSL sertifikası CPanel'e yükleniyor..."
   
-  /root/.acme.sh/acme.sh --deploy --deploy-hook cpanel_uapi -d $domain --user="$user"
+  /root/.acme.sh/acme.sh --deploy --deploy-hook cpanel_uapi -d $domain
 done
